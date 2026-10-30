@@ -10,12 +10,14 @@ different claims in the paper.
 
 ## 1. `benchmark/` — real, controlled extraction-quality benchmark (§8.3)
 
-A real benchmark of scientific web resources (currently N=96, in progress
-toward ~100), executed through CroW's production extraction engine against
-live websites, checked against ground truth fetched independently from each
-portal's own public API (NCBI E-utilities, ClinicalTrials.gov API v2,
-UniProt REST API). Every number in the paper's Table 2/3 and Figures
-10–12 is recomputed from the raw files here.
+A real benchmark of 141 scientific web resources across five categories
+(biomedical search, clinical registries, protein knowledgebases, genomic
+repositories, disease databases), executed through CroW's production
+extraction engine against live websites, checked against ground truth
+fetched independently from each portal's own public API (NCBI E-utilities,
+ClinicalTrials.gov API v2, UniProt REST API, MedlinePlus). Every number in
+the paper's Table 2/3 and Figures 10–12 is recomputed from the raw files
+here.
 
 **What you can rerun yourself, with nothing else installed but this repo's
 Python dependencies:**
@@ -36,9 +38,9 @@ files it already produced are included, so `compute_metrics.py` still
 reproduces every reported precision/recall/F1 number without needing to
 re-run extraction.
 
-See `benchmark/README.md` for full methodology, current status, known
-limitations (disease-database category not yet covered), and a record of
-failed attempts at sites we couldn't yet integrate.
+See `benchmark/README.md` for full methodology, current status, and a
+record of failed attempts at sites we couldn't yet integrate on the way to
+the disease-database category now included.
 
 ## 2. `generate_charts.py` + `reviewer_export/` — seeded operational corpus (§8.4)
 
