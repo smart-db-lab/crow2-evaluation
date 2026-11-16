@@ -1,0 +1,106 @@
+{
+  "experiment": "Controlled comparison: CroW vs. Web Scraper (Chrome/Firefox extension, webscraper.io)",
+  "motivation": "Addresses Bioinformatics Advances Reviewer 1's claim of successfully extracting UniProt entry pages and ClinicalTrials.gov search results with Web Scraper.",
+  "web_scraper_version": "1.114.4",
+  "browser": "Firefox (all six runs)",
+  "methodology": "Identical target pages and fields on both systems. CroW run through the real production engine (_run_scraping_async). Web Scraper operated manually by the paper's author (browser automation could not reach it -- DevTools/extensions gallery are blocked from scripting, confirmed directly). All Web Scraper exports scored with the same scoring logic as the main 141-resource benchmark (compute_metrics.py's score_list_mode / score_single_page_mode).",
+  "tier0_clinicaltrials": [
+    {
+      "resource_id": "clinicaltrials_crispr",
+      "crow": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "elapsed_seconds": 5.26
+      },
+      "web_scraper": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "scrape_step_seconds": 4.7,
+        "reuse": "first build, not a reuse test"
+      }
+    },
+    {
+      "resource_id": "clinicaltrials_diabetes",
+      "crow": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "elapsed_seconds": 4.13
+      },
+      "web_scraper": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "scrape_step_seconds": 4.6,
+        "reuse": "FAILED: editing/reusing the existing sitemap's start URL did not work (0 records scraped); required building a new sitemap, which the AI Wizard auto-named with different, non-semantic columns (data/data2/...) than the first run"
+      }
+    },
+    {
+      "resource_id": "clinicaltrials_alzheimer_disease",
+      "crow": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "elapsed_seconds": 4.55
+      },
+      "web_scraper": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "scrape_step_seconds": 4.8,
+        "reuse": "Also required a fresh sitemap (yet a third distinct auto-generated column layout observed across the three runs)"
+      }
+    }
+  ],
+  "tier1_uniprot": [
+    {
+      "resource_id": "uniprot_entry_p01308",
+      "crow": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "elapsed_seconds": 12.17
+      },
+      "web_scraper_ai_wizard": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "failure_mode": "AI Wizard auto-detected and scraped the page's Natural Variant feature table (70 rows) instead of the single-entity header fields (ProteinName/GeneName/Organism/Status)"
+      }
+    },
+    {
+      "resource_id": "uniprot_entry_p38398",
+      "crow": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "elapsed_seconds": 12.13
+      },
+      "web_scraper_ai_wizard": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "scrape_step_seconds": 25.74,
+        "failure_mode": "Same failure mode, different wrong table: Natural Variant + Mutagenesis feature table"
+      }
+    },
+    {
+      "resource_id": "uniprot_entry_p04637",
+      "crow": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "elapsed_seconds": 12.08
+      },
+      "web_scraper_ai_wizard": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "failure_mode": "Same failure mode, a third distinct wrong table: the sequence/EMBL-GenBank cross-reference table (85 rows)"
+      },
+      "web_scraper_manual_spot_check": {
+        "field_tested": "ProteinName only",
+        "result": "SUCCESS -- manually clicking the protein name text produced a correct single-value CSS selector (.info-list--columns li:nth-of-type(1) strong) returning exactly \"Cellular tumor antigen p53\". Not scraped/exported/scored as a full record; this is a targeted spot-check confirming manual point-and-click selection can correctly target this page, isolating the AI Wizard's auto-detection specifically as the point of failure, not manual Web Scraper use in general."
+      }
+    }
+  ],
+  "summary": {
+    "tier0": "Both systems reach 100%/100% on all three ClinicalTrials.gov queries (record-level NCT ID matching), at comparable per-query execution time (~4-5s). CroW's wrapper was reused unchanged across all three queries with no reconfiguration. Web Scraper's sitemap reuse did not work as expected (editing the stored start URL produced 0 records); each query effectively required a new sitemap, and the AI Wizard's auto-generated column names were not consistent across runs.",
+    "tier1": "CroW reaches 100%/100% on all three UniProt entry pages, the same unmodified wrapper reused across all three (~12s each). Web Scraper's AI Wizard failed all three (0%/0%), each time auto-detecting a different wrong repeating table on the page instead of the single-entity header fields. A manual spot-check on one field (protein name, P04637) confirmed Web Scraper's manual point-and-click selection can correctly target the right element -- the failure is specific to the AI-assisted auto-detection step, not an inherent inability of the tool to address Tier 1 pages by hand."
+  },
+  "fairness_notes": [
+    "Automated cloud scraping ('Automate in Cloud') was never used -- a paid tier explicitly excluded to keep the comparison to Web Scraper's free, local functionality, matching what CroW uses.",
+    "All runs used the same target pages, fields, and ground truth as the main 141-resource benchmark; no new ground truth was fetched.",
+    "Browser automation could not operate Web Scraper directly (confirmed: the extensions gallery and DevTools are both blocked from scripting), so Web Scraper was operated manually by the paper's author throughout; CroW ran through its real, unmodified production engine."
+  ]
+}

@@ -258,3 +258,42 @@ untested assumption.
   `README.txt` and by finding template-repeating record patterns in
   `runs/results/*.json` (e.g., the same 10 gene records tiled to reach a
   count of 100 — not something a real scrape produces).
+
+## Controlled comparison with Web Scraper (Chrome/Firefox extension) -- new
+
+Added to address Bioinformatics Advances Reviewer 1's claim of successfully
+extracting UniProt entry pages and ClinicalTrials.gov search results with
+Web Scraper (webscraper.io, v1.114.4). Uses the same target pages, fields,
+and ground truth as the main benchmark above -- no new ground truth fetched.
+
+- **`webscraper_comparison_crow_side.py`** / **`.json`** -- CroW's side, run
+  through the real production engine (`_run_scraping_async`), same as every
+  other result in this repo. Not a simulation.
+- **`webscraper_comparison_raw/`** -- Web Scraper's raw CSV exports, exactly
+  as downloaded, unedited.
+- **`score_webscraper_csv.py`** -- scores a Web Scraper CSV export against
+  the same ground truth, with the same matching logic (`compute_metrics.py`)
+  as the rest of the benchmark.
+- **`webscraper_comparison_results.json`** -- consolidated results and
+  honest notes on what was and wasn't measured.
+
+**Important limitation, stated plainly:** browser automation could not
+operate Web Scraper directly -- both the Chrome Web Store extensions
+gallery and DevTools (where Web Scraper's panel lives) are blocked from
+scripting (confirmed directly, not assumed). Web Scraper was therefore
+operated manually by the paper's author; CroW ran through its unmodified,
+real production path. All six Web Scraper runs were in Firefox.
+
+**Headline result:** both systems reach 100%/100% on all three
+ClinicalTrials.gov queries, at comparable execution time -- but CroW's
+wrapper was reused unchanged across all three queries, while Web Scraper's
+sitemap reuse did not work as expected and effectively required rebuilding
+each time. On the three UniProt entry pages, CroW again reaches 100%/100%
+with one wrapper reused unchanged; Web Scraper's AI Wizard scored 0%/0% on
+all three, each time auto-detecting and scraping a different wrong
+repeating table on the page (variants, variants+mutagenesis, sequence
+cross-references) instead of the single-entity header fields needed. A
+manual, non-AI-assisted spot-check on one field (protein name) confirmed
+Web Scraper's point-and-click selection can correctly target the right
+element by hand -- the failure is specific to the AI-assisted auto-detect
+step, not Web Scraper's manual workflow in general.

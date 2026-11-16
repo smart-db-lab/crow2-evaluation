@@ -1,0 +1,222 @@
+{
+  "tier0_clinicaltrials": [
+    {
+      "resource_id": "clinicaltrials_crispr",
+      "url": "https://clinicaltrials.gov/search?term=CRISPR&viewType=Table",
+      "elapsed_seconds": 5.259908958,
+      "record_count": 10,
+      "records": [
+        {
+          "Title": "A Safety and Efficacy Study of TALEN and CRISPR/Cas9 in the Treatment of HPV-related Cervical Intraepithelial Neoplasia\u2160",
+          "NCT_ID": "NCT03057912",
+          "Status": "Unknown status\u00a0  *"
+        },
+        {
+          "Title": "Detection of Enterovirus Genotypes by CRISPR Technology",
+          "NCT_ID": "NCT04535648",
+          "Status": "Withdrawn"
+        },
+        {
+          "Title": "T-cell Therapy with CRISPR PD1-edited Tumor Infiltrating Lymphocytes for Patients with Metastatic Melanoma",
+          "NCT_ID": "NCT06783270",
+          "Status": "Recruiting"
+        },
+        {
+          "Title": "Evaluation of CRISPR-based Test for the Rapid Identification of TB in Pulmonary Tuberculosis Suspects",
+          "NCT_ID": "NCT04074369",
+          "Status": "Unknown status\u00a0  *"
+        },
+        {
+          "Title": "A Long-term Follow-up Study of Subjects Who Received CRISPR CAR T Cellular Therapies",
+          "NCT_ID": "NCT06208878",
+          "Status": "Enrolling by invitation"
+        },
+        {
+          "Title": "Detection Technology of Peripheral Blood ctDNA Based on CRISPR/Cas and Gold NanoparticlesNew",
+          "NCT_ID": "NCT07916636",
+          "Status": "Not yet recruiting"
+        },
+        {
+          "Title": "CRISPR-Edited HLA Donor Liver Transplant to Reduce Rejection",
+          "NCT_ID": "NCT07053488",
+          "Status": "Recruiting"
+        },
+        {
+          "Title": "Effect of PCR-CRISPR/Cas12a on the Early Anti-infective Schemes in Patients With Open Air Pneumonia",
+          "NCT_ID": "NCT04178382",
+          "Status": "Unknown status\u00a0  *"
+        },
+        {
+          "Title": "Examining the Knowledge, Attitudes, and Beliefs of Sickle Cell Disease Patients, Parents of Patients With Sickle Cell Disease, and Providers Towards the Integration of CRISPR in Clinical Care",
+          "NCT_ID": "NCT03167450",
+          "Status": "Completed"
+        },
+        {
+          "Title": "Evaluating the Diagnostic Performance and Impact on Clinical Outcomes of the NuRapid-CRISPR Pathogen Profile Assay in ICU Patients With Sepsis",
+          "NCT_ID": "NCT07580001",
+          "Status": "Not yet recruiting"
+        }
+      ]
+    },
+    {
+      "resource_id": "clinicaltrials_diabetes",
+      "url": "https://clinicaltrials.gov/search?term=diabetes&viewType=Table",
+      "elapsed_seconds": 4.132291958,
+      "record_count": 10,
+      "records": [
+        {
+          "Title": "A1c Discordance in Diabetes Patients",
+          "NCT_ID": "NCT01213277",
+          "Status": "Suspended"
+        },
+        {
+          "Title": "Renal Mechanism of Action/Splay vs. TmG",
+          "NCT_ID": "NCT00726505",
+          "Status": "Terminated"
+        },
+        {
+          "Title": "PPAR-COMBO With Sulfonylurea",
+          "NCT_ID": "NCT00162175",
+          "Status": "Completed"
+        },
+        {
+          "Title": "Relationship Between Hemodynamic Changes and Cardiopulmonary Fitness in Type 2 Diabetes Mellitus Patients",
+          "NCT_ID": "NCT06842108",
+          "Status": "Recruiting"
+        },
+        {
+          "Title": "Effect of Insulin Degludec Versus Insulin Glargine on Glycemic Variability in Patients With Type 2 Diabetes Mellitus",
+          "NCT_ID": "NCT02680457",
+          "Status": "Completed\u00a0 View results"
+        },
+        {
+          "Title": "An Epidemiological and Long-Term Endpoint Registry Study on Disease-Syndrome Correlation Patterns in Comorbid Population With Diabetes and Ischemic Cardio-Cerebrovascular Disease",
+          "NCT_ID": "NCT07104422",
+          "Status": "Not yet recruiting"
+        },
+        {
+          "Title": "The Effect of Diabetic Foot Training Given to Patients With Type-2 Diabetes Using Virtual Reality Glasses on Foot Care Behaviors",
+          "NCT_ID": "NCT07114445",
+          "Status": "Enrolling by invitation"
+        },
+        {
+          "Title": "Shanghai Children and Adolescent Diabetes Eye Study",
+          "NCT_ID": "NCT03587948",
+          "Status": "Recruiting"
+        },
+        {
+          "Title": "A 2-Part Trial in Subjects With Type 2 Diabetes and in Healthy Subjects to Evaluate GSK1614235, a New Glucose Lowering Drug to Treat Type 2 Diabetes",
+          "NCT_ID": "NCT00976261",
+          "Status": "Completed"
+        },
+        {
+          "Title": "Effect of Stevia Leave Powder on Blood Glucose and Lipid Profile of Diabetic Patients",
+          "NCT_ID": "NCT06645002",
+          "Status": "Unknown status\u00a0  *"
+        }
+      ]
+    },
+    {
+      "resource_id": "clinicaltrials_alzheimer_disease",
+      "url": "https://clinicaltrials.gov/search?term=Alzheimer+disease&viewType=Table",
+      "elapsed_seconds": 4.551442375000001,
+      "record_count": 10,
+      "records": [
+        {
+          "Title": "Retinal Neurodegenerative Signs in Alzheimer's Diseases",
+          "NCT_ID": "NCT01555827",
+          "Status": "Completed"
+        },
+        {
+          "Title": "Irritation and Sensitization Study of d-Amphetamine Transdermal System",
+          "NCT_ID": "NCT04094025",
+          "Status": "Completed"
+        },
+        {
+          "Title": "Gut Microbiota and Alzheimer's Diseases",
+          "NCT_ID": "NCT03827733",
+          "Status": "Unknown status\u00a0  *"
+        },
+        {
+          "Title": "The Chinese Familial Alzheimer's Network",
+          "NCT_ID": "NCT03657732",
+          "Status": "Recruiting"
+        },
+        {
+          "Title": "Lecanemab for Early Onset Familial Alzheimer's Disease",
+          "NCT_ID": "NCT06883019",
+          "Status": "Recruiting"
+        },
+        {
+          "Title": "Impact of a Biophoton Therapy on Patients With Brain Disorders",
+          "NCT_ID": "NCT06147999",
+          "Status": "Recruiting"
+        },
+        {
+          "Title": "Neuroimaging in Healthy Aging and Senile Dementia (HASD_IND)",
+          "NCT_ID": "NCT04579120",
+          "Status": "Recruiting"
+        },
+        {
+          "Title": "A Study of CM383 in Patients With Alzheimer's Disease Related Mild Cognitive Impairment and Mild Alzheimer's Disease",
+          "NCT_ID": "NCT06619613",
+          "Status": "Recruiting"
+        },
+        {
+          "Title": "DMB-I in the Treatment of Alzheimer Type Dementia",
+          "NCT_ID": "NCT06292351",
+          "Status": "Completed"
+        },
+        {
+          "Title": "A Genetic Study for Alzheimer Dementia: Case-control Study",
+          "NCT_ID": "NCT06330155",
+          "Status": "Not yet recruiting"
+        }
+      ]
+    }
+  ],
+  "tier1_uniprot": [
+    {
+      "resource_id": "uniprot_entry_p01308",
+      "url": "https://www.uniprot.org/uniprotkb/P01308/entry",
+      "elapsed_seconds": 12.168988209000002,
+      "record_count": 1,
+      "records": [
+        {
+          "ProteinName": "Insulin",
+          "GeneName": "INS",
+          "Organism": "Homo sapiens (Human)",
+          "Status": "UniProtKB reviewed (Swiss-Prot)"
+        }
+      ]
+    },
+    {
+      "resource_id": "uniprot_entry_p04637",
+      "url": "https://www.uniprot.org/uniprotkb/P04637/entry",
+      "elapsed_seconds": 12.084148207999998,
+      "record_count": 1,
+      "records": [
+        {
+          "ProteinName": "Cellular tumor antigen p53",
+          "GeneName": "TP53",
+          "Organism": "Homo sapiens (Human)",
+          "Status": "UniProtKB reviewed (Swiss-Prot)"
+        }
+      ]
+    },
+    {
+      "resource_id": "uniprot_entry_p38398",
+      "url": "https://www.uniprot.org/uniprotkb/P38398/entry",
+      "elapsed_seconds": 12.133100499999998,
+      "record_count": 1,
+      "records": [
+        {
+          "ProteinName": "Breast cancer type 1 susceptibility protein",
+          "GeneName": "BRCA1",
+          "Organism": "Homo sapiens (Human)",
+          "Status": "UniProtKB reviewed (Swiss-Prot)"
+        }
+      ]
+    }
+  ]
+}
