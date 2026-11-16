@@ -87,11 +87,26 @@ def main():
               f"{r['f1']*100:>5.1f}%  {r['elapsed_seconds']:>6.1f}")
 
     n = len(rows)
-    print(f"\nMean across {n} resources: "
+    print(f"\nMacro mean across {n} resources (simple per-resource average): "
           f"precision={sum(r['precision'] for r in rows)/n*100:.1f}%  "
           f"recall={sum(r['recall'] for r in rows)/n*100:.1f}%  "
           f"F1={sum(r['f1'] for r in rows)/n*100:.1f}%  "
           f"mean_runtime={sum(r['elapsed_seconds'] for r in rows)/n:.1f}s")
+
+    # Micro average (sum TP/FP/FN across all resources first, then compute
+    # one P/R/F1) -- the convention the main 141-resource benchmark itself
+    # uses (see benchmark/README.md and compute_metrics.py's own comments).
+    # Reported alongside the macro figure above because the two are not
+    # interchangeable and a reader comparing this subset's numbers against
+    # CroW's headline 97.8% (itself a micro average) should see both.
+    tp_sum = sum(r["true_positive"] for r in rows)
+    fp_sum = sum(r["false_positive"] for r in rows)
+    fn_sum = sum(r["false_negative"] for r in rows)
+    micro_p = tp_sum / (tp_sum + fp_sum) if (tp_sum + fp_sum) else 0.0
+    micro_r = tp_sum / (tp_sum + fn_sum) if (tp_sum + fn_sum) else 0.0
+    micro_f1 = 2 * micro_p * micro_r / (micro_p + micro_r) if (micro_p + micro_r) else 0.0
+    print(f"Micro average across {n} resources (summed TP/FP/FN, CroW's own convention): "
+          f"precision={micro_p*100:.1f}%  recall={micro_r*100:.1f}%  F1={micro_f1*100:.1f}%")
     print(f"\nWrote {out_csv}")
 
 

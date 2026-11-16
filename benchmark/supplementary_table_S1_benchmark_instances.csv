@@ -1,0 +1,142 @@
+instance_id,underlying_portal,biological_category,query_or_page_url,extraction_mode,wrapper_template,expected_records_or_fields,extracted_records_or_fields,correctly_matched,precision,recall
+pubmed_tp53_tumor_suppressor,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=TP53+tumor+suppressor&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_brca1_breast_cancer,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=BRCA1+breast+cancer&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_crispr_gene_editing,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=CRISPR+gene+editing&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_alzheimer_amyloid_beta,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=Alzheimer+amyloid+beta&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_covid_19_vaccine_efficacy,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=COVID-19+vaccine+efficacy&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_insulin_resistance_type_2_diabetes,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=insulin+resistance+type+2+diabetes&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_parkinson_disease_dopamine,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=Parkinson+disease+dopamine&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_obesity_leptin_signaling,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=obesity+leptin+signaling&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_hepatitis_c_virus_treatment,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=hepatitis+C+virus+treatment&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_rheumatoid_arthritis_biomarkers,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=rheumatoid+arthritis+biomarkers&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_autism_spectrum_disorder_genetics,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=autism+spectrum+disorder+genetics&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_malaria_drug_resistance,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=malaria+drug+resistance&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_tuberculosis_diagnosis,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=tuberculosis+diagnosis&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_hiv_antiretroviral_therapy,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=HIV+antiretroviral+therapy&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_cystic_fibrosis_cftr,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=cystic+fibrosis+CFTR&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_schizophrenia_genetics,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=schizophrenia+genetics&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_obesity_glp_1_receptor_agonist,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=obesity+GLP-1+receptor+agonist&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_colorectal_cancer_screening,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=colorectal+cancer+screening&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_influenza_vaccine_development,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=influenza+vaccine+development&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_sepsis_biomarkers,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=sepsis+biomarkers&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_stroke_thrombolysis,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=stroke+thrombolysis&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_epilepsy_anticonvulsant,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=epilepsy+anticonvulsant&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_psoriasis_treatment,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=psoriasis+treatment&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_osteoarthritis_cartilage,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=osteoarthritis+cartilage&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_sickle_cell_disease_gene_therapy,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=sickle+cell+disease+gene+therapy&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_huntington_disease_pathogenesis,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=Huntington+disease+pathogenesis&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_melanoma_checkpoint_inhibitor,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=melanoma+checkpoint+inhibitor&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_zika_virus_microcephaly,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=Zika+virus+microcephaly&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+pubmed_antibiotic_resistance_mechanisms,PubMed,biomedical_search,https://pubmed.ncbi.nlm.nih.gov/?term=antibiotic+resistance+mechanisms&sort=date,List Mode (Tier 0),pubmed_list,10,10,10,1.0,1.0
+clinicaltrials_crispr,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=CRISPR&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_diabetes,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=diabetes&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_alzheimer_disease,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=Alzheimer+disease&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_melanoma,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=melanoma&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_lung_cancer_immunotherapy,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=lung+cancer+immunotherapy&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_heart_failure,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=heart+failure&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_multiple_sclerosis,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=multiple+sclerosis&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_asthma,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=asthma&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_chronic_kidney_disease,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=chronic+kidney+disease&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_osteoporosis,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=osteoporosis&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_depression,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=depression&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_breast_cancer,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=breast+cancer&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_prostate_cancer,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=prostate+cancer&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_covid_19,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=COVID-19&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_psoriasis,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=psoriasis&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_epilepsy,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=epilepsy&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_stroke,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=stroke&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_sepsis,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=sepsis&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_obesity,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=obesity&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_hepatitis_b,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=hepatitis+B&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_tuberculosis,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=tuberculosis&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_leukemia,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=leukemia&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_parkinson_disease,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=Parkinson+disease&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_cystic_fibrosis,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=cystic+fibrosis&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_schizophrenia,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=schizophrenia&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+clinicaltrials_rheumatoid_arthritis,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/search?term=rheumatoid+arthritis&viewType=Table,List Mode (Tier 0),clinicaltrials_list,10,10,10,1.0,1.0
+uniprot_insulin,UniProt,protein,https://www.uniprot.org/uniprotkb?query=insulin&facets=reviewed%3Atrue,List Mode (Tier 0),uniprot_list,25,25,25,1.0,1.0
+uniprot_hemoglobin,UniProt,protein,https://www.uniprot.org/uniprotkb?query=hemoglobin&facets=reviewed%3Atrue,List Mode (Tier 0),uniprot_list,25,25,25,1.0,1.0
+uniprot_p53,UniProt,protein,https://www.uniprot.org/uniprotkb?query=p53&facets=reviewed%3Atrue,List Mode (Tier 0),uniprot_list,25,25,25,1.0,1.0
+uniprot_collagen,UniProt,protein,https://www.uniprot.org/uniprotkb?query=collagen&facets=reviewed%3Atrue,List Mode (Tier 0),uniprot_list,25,25,25,1.0,1.0
+uniprot_myosin,UniProt,protein,https://www.uniprot.org/uniprotkb?query=myosin&facets=reviewed%3Atrue,List Mode (Tier 0),uniprot_list,25,25,25,1.0,1.0
+uniprot_albumin,UniProt,protein,https://www.uniprot.org/uniprotkb?query=albumin&facets=reviewed%3Atrue,List Mode (Tier 0),uniprot_list,25,25,25,1.0,1.0
+uniprot_cytochrome_c,UniProt,protein,https://www.uniprot.org/uniprotkb?query=cytochrome+c&facets=reviewed%3Atrue,List Mode (Tier 0),uniprot_list,25,25,25,1.0,1.0
+uniprot_keratin,UniProt,protein,https://www.uniprot.org/uniprotkb?query=keratin&facets=reviewed%3Atrue,List Mode (Tier 0),uniprot_list,25,25,25,1.0,1.0
+uniprot_actin,UniProt,protein,https://www.uniprot.org/uniprotkb?query=actin&facets=reviewed%3Atrue,List Mode (Tier 0),uniprot_list,25,25,25,1.0,1.0
+uniprot_amylase,UniProt,protein,https://www.uniprot.org/uniprotkb?query=amylase&facets=reviewed%3Atrue,List Mode (Tier 0),uniprot_list,25,25,25,1.0,1.0
+uniprot_lipase,UniProt,protein,https://www.uniprot.org/uniprotkb?query=lipase&facets=reviewed%3Atrue,List Mode (Tier 0),uniprot_list,25,25,25,1.0,1.0
+uniprot_trypsin,UniProt,protein,https://www.uniprot.org/uniprotkb?query=trypsin&facets=reviewed%3Atrue,List Mode (Tier 0),uniprot_list,25,25,25,1.0,1.0
+uniprot_lysozyme,UniProt,protein,https://www.uniprot.org/uniprotkb?query=lysozyme&facets=reviewed%3Atrue,List Mode (Tier 0),uniprot_list,25,25,25,1.0,1.0
+uniprot_ferritin,UniProt,protein,https://www.uniprot.org/uniprotkb?query=ferritin&facets=reviewed%3Atrue,List Mode (Tier 0),uniprot_list,25,25,25,1.0,1.0
+uniprot_transferrin,UniProt,protein,https://www.uniprot.org/uniprotkb?query=transferrin&facets=reviewed%3Atrue,List Mode (Tier 0),uniprot_list,25,25,25,1.0,1.0
+uniprot_fibrinogen,UniProt,protein,https://www.uniprot.org/uniprotkb?query=fibrinogen&facets=reviewed%3Atrue,List Mode (Tier 0),uniprot_list,25,25,25,1.0,1.0
+uniprot_immunoglobulin_g,UniProt,protein,https://www.uniprot.org/uniprotkb?query=immunoglobulin+G&facets=reviewed%3Atrue,List Mode (Tier 0),uniprot_list,25,25,25,1.0,1.0
+uniprot_interferon_gamma,UniProt,protein,https://www.uniprot.org/uniprotkb?query=interferon+gamma&facets=reviewed%3Atrue,List Mode (Tier 0),uniprot_list,25,25,25,1.0,1.0
+uniprot_tumor_necrosis_factor,UniProt,protein,https://www.uniprot.org/uniprotkb?query=tumor+necrosis+factor&facets=reviewed%3Atrue,List Mode (Tier 0),uniprot_list,25,25,25,1.0,1.0
+uniprot_vascular_endothelial_growth_factor,UniProt,protein,https://www.uniprot.org/uniprotkb?query=vascular+endothelial+growth+factor&facets=reviewed%3Atrue,List Mode (Tier 0),uniprot_list,25,25,25,1.0,1.0
+uniprot_epidermal_growth_factor_receptor,UniProt,protein,https://www.uniprot.org/uniprotkb?query=epidermal+growth+factor+receptor&facets=reviewed%3Atrue,List Mode (Tier 0),uniprot_list,25,25,25,1.0,1.0
+clinicaltrials_study_nct03057912,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/study/NCT03057912,Single Page Mode (Tier 1),clinicaltrials_study,2,2,2,1.0,1.0
+clinicaltrials_study_nct04535648,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/study/NCT04535648,Single Page Mode (Tier 1),clinicaltrials_study,2,2,2,1.0,1.0
+clinicaltrials_study_nct06783270,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/study/NCT06783270,Single Page Mode (Tier 1),clinicaltrials_study,2,2,2,1.0,1.0
+clinicaltrials_study_nct04074369,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/study/NCT04074369,Single Page Mode (Tier 1),clinicaltrials_study,2,2,2,1.0,1.0
+clinicaltrials_study_nct06208878,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/study/NCT06208878,Single Page Mode (Tier 1),clinicaltrials_study,2,2,2,1.0,1.0
+clinicaltrials_study_nct07053488,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/study/NCT07053488,Single Page Mode (Tier 1),clinicaltrials_study,2,2,2,1.0,1.0
+clinicaltrials_study_nct04178382,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/study/NCT04178382,Single Page Mode (Tier 1),clinicaltrials_study,2,2,2,1.0,1.0
+clinicaltrials_study_nct03167450,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/study/NCT03167450,Single Page Mode (Tier 1),clinicaltrials_study,2,2,2,1.0,1.0
+clinicaltrials_study_nct07580001,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/study/NCT07580001,Single Page Mode (Tier 1),clinicaltrials_study,2,2,2,1.0,1.0
+clinicaltrials_study_nct07053462,ClinicalTrials.gov,clinical,https://clinicaltrials.gov/study/NCT07053462,Single Page Mode (Tier 1),clinicaltrials_study,2,2,2,1.0,1.0
+uniprot_entry_p01308,UniProt,protein,https://www.uniprot.org/uniprotkb/P01308/entry,Single Page Mode (Tier 1),uniprot_entry,4,4,4,1.0,1.0
+uniprot_entry_p04637,UniProt,protein,https://www.uniprot.org/uniprotkb/P04637/entry,Single Page Mode (Tier 1),uniprot_entry,4,4,4,1.0,1.0
+uniprot_entry_p38398,UniProt,protein,https://www.uniprot.org/uniprotkb/P38398/entry,Single Page Mode (Tier 1),uniprot_entry,4,4,4,1.0,1.0
+uniprot_entry_p00533,UniProt,protein,https://www.uniprot.org/uniprotkb/P00533/entry,Single Page Mode (Tier 1),uniprot_entry,4,4,4,1.0,1.0
+uniprot_entry_p60484,UniProt,protein,https://www.uniprot.org/uniprotkb/P60484/entry,Single Page Mode (Tier 1),uniprot_entry,4,4,4,1.0,1.0
+uniprot_entry_p01116,UniProt,protein,https://www.uniprot.org/uniprotkb/P01116/entry,Single Page Mode (Tier 1),uniprot_entry,4,4,4,1.0,1.0
+uniprot_entry_p01106,UniProt,protein,https://www.uniprot.org/uniprotkb/P01106/entry,Single Page Mode (Tier 1),uniprot_entry,4,4,4,1.0,1.0
+uniprot_entry_p15692,UniProt,protein,https://www.uniprot.org/uniprotkb/P15692/entry,Single Page Mode (Tier 1),uniprot_entry,4,4,4,1.0,1.0
+uniprot_entry_p13569,UniProt,protein,https://www.uniprot.org/uniprotkb/P13569/entry,Single Page Mode (Tier 1),uniprot_entry,4,4,4,1.0,1.0
+uniprot_entry_p01375,UniProt,protein,https://www.uniprot.org/uniprotkb/P01375/entry,Single Page Mode (Tier 1),uniprot_entry,4,4,4,1.0,1.0
+uniprot_entry_p05231,UniProt,protein,https://www.uniprot.org/uniprotkb/P05231/entry,Single Page Mode (Tier 1),uniprot_entry,4,4,4,1.0,1.0
+uniprot_entry_p42336,UniProt,protein,https://www.uniprot.org/uniprotkb/P42336/entry,Single Page Mode (Tier 1),uniprot_entry,4,4,4,1.0,1.0
+uniprot_entry_p15056,UniProt,protein,https://www.uniprot.org/uniprotkb/P15056/entry,Single Page Mode (Tier 1),uniprot_entry,4,4,4,1.0,1.0
+ncbi_gene_insulin,NCBI Gene,genomic,https://www.ncbi.nlm.nih.gov/gene/?term=insulin+AND+human%5Borgn%5D,List Mode (Tier 0),ncbi_gene_list,20,20,20,1.0,1.0
+ncbi_gene_brca1,NCBI Gene,genomic,https://www.ncbi.nlm.nih.gov/gene/?term=BRCA1+AND+human%5Borgn%5D,List Mode (Tier 0),ncbi_gene_list,20,20,20,1.0,1.0
+ncbi_gene_apoe,NCBI Gene,genomic,https://www.ncbi.nlm.nih.gov/gene/?term=APOE+AND+human%5Borgn%5D,List Mode (Tier 0),ncbi_gene_list,20,20,20,1.0,1.0
+ncbi_gene_egfr,NCBI Gene,genomic,https://www.ncbi.nlm.nih.gov/gene/?term=EGFR+AND+human%5Borgn%5D,List Mode (Tier 0),ncbi_gene_list,20,20,20,1.0,1.0
+ncbi_gene_kras,NCBI Gene,genomic,https://www.ncbi.nlm.nih.gov/gene/?term=KRAS+AND+human%5Borgn%5D,List Mode (Tier 0),ncbi_gene_list,20,20,20,1.0,1.0
+ncbi_gene_pten,NCBI Gene,genomic,https://www.ncbi.nlm.nih.gov/gene/?term=PTEN+AND+human%5Borgn%5D,List Mode (Tier 0),ncbi_gene_list,20,20,20,1.0,1.0
+ncbi_gene_myc,NCBI Gene,genomic,https://www.ncbi.nlm.nih.gov/gene/?term=MYC+AND+human%5Borgn%5D,List Mode (Tier 0),ncbi_gene_list,20,20,18,0.9,0.9
+ncbi_gene_vegfa,NCBI Gene,genomic,https://www.ncbi.nlm.nih.gov/gene/?term=VEGFA+AND+human%5Borgn%5D,List Mode (Tier 0),ncbi_gene_list,20,20,20,1.0,1.0
+ncbi_gene_cftr,NCBI Gene,genomic,https://www.ncbi.nlm.nih.gov/gene/?term=CFTR+AND+human%5Borgn%5D,List Mode (Tier 0),ncbi_gene_list,20,20,20,1.0,1.0
+ncbi_gene_tnf,NCBI Gene,genomic,https://www.ncbi.nlm.nih.gov/gene/?term=TNF+AND+human%5Borgn%5D,List Mode (Tier 0),ncbi_gene_list,20,20,20,1.0,1.0
+ncbi_gene_il6,NCBI Gene,genomic,https://www.ncbi.nlm.nih.gov/gene/?term=IL6+AND+human%5Borgn%5D,List Mode (Tier 0),ncbi_gene_list,20,20,20,1.0,1.0
+ncbi_gene_pik3ca,NCBI Gene,genomic,https://www.ncbi.nlm.nih.gov/gene/?term=PIK3CA+AND+human%5Borgn%5D,List Mode (Tier 0),ncbi_gene_list,20,20,20,1.0,1.0
+ncbi_gene_braf,NCBI Gene,genomic,https://www.ncbi.nlm.nih.gov/gene/?term=BRAF+AND+human%5Borgn%5D,List Mode (Tier 0),ncbi_gene_list,20,20,20,1.0,1.0
+ncbi_gene_alk,NCBI Gene,genomic,https://www.ncbi.nlm.nih.gov/gene/?term=ALK+AND+human%5Borgn%5D,List Mode (Tier 0),ncbi_gene_list,20,20,20,1.0,1.0
+ncbi_gene_rb1,NCBI Gene,genomic,https://www.ncbi.nlm.nih.gov/gene/?term=RB1+AND+human%5Borgn%5D,List Mode (Tier 0),ncbi_gene_list,20,20,20,1.0,1.0
+ncbi_gene_apc,NCBI Gene,genomic,https://www.ncbi.nlm.nih.gov/gene/?term=APC+AND+human%5Borgn%5D,List Mode (Tier 0),ncbi_gene_list,20,20,20,1.0,1.0
+ncbi_gene_mlh1,NCBI Gene,genomic,https://www.ncbi.nlm.nih.gov/gene/?term=MLH1+AND+human%5Borgn%5D,List Mode (Tier 0),ncbi_gene_list,20,20,20,1.0,1.0
+ncbi_gene_stat3,NCBI Gene,genomic,https://www.ncbi.nlm.nih.gov/gene/?term=STAT3+AND+human%5Borgn%5D,List Mode (Tier 0),ncbi_gene_list,20,20,20,1.0,1.0
+ncbi_gene_notch1,NCBI Gene,genomic,https://www.ncbi.nlm.nih.gov/gene/?term=NOTCH1+AND+human%5Borgn%5D,List Mode (Tier 0),ncbi_gene_list,20,20,20,1.0,1.0
+ncbi_gene_smad4,NCBI Gene,genomic,https://www.ncbi.nlm.nih.gov/gene/?term=SMAD4+AND+human%5Borgn%5D,List Mode (Tier 0),ncbi_gene_list,20,20,20,1.0,1.0
+medlineplus_diabetes,MedlinePlus,disease,https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=diabetes&binning-state=group%3D%3DHealth%20Topics,List Mode (Tier 0),medlineplus_list,10,10,9,0.9,0.9
+medlineplus_hypertension,MedlinePlus,disease,https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=hypertension&binning-state=group%3D%3DHealth%20Topics,List Mode (Tier 0),medlineplus_list,10,10,7,0.7,0.7
+medlineplus_asthma,MedlinePlus,disease,https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=asthma&binning-state=group%3D%3DHealth%20Topics,List Mode (Tier 0),medlineplus_list,10,10,9,0.9,0.9
+medlineplus_epilepsy,MedlinePlus,disease,https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=epilepsy&binning-state=group%3D%3DHealth%20Topics,List Mode (Tier 0),medlineplus_list,10,10,10,1.0,1.0
+medlineplus_migraine,MedlinePlus,disease,https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=migraine&binning-state=group%3D%3DHealth%20Topics,List Mode (Tier 0),medlineplus_list,10,10,10,1.0,1.0
+medlineplus_osteoporosis,MedlinePlus,disease,https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=osteoporosis&binning-state=group%3D%3DHealth%20Topics,List Mode (Tier 0),medlineplus_list,10,10,9,0.9,0.9
+medlineplus_anemia,MedlinePlus,disease,https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=anemia&binning-state=group%3D%3DHealth%20Topics,List Mode (Tier 0),medlineplus_list,10,10,10,1.0,1.0
+medlineplus_thyroid_disease,MedlinePlus,disease,https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=thyroid+disease&binning-state=group%3D%3DHealth%20Topics,List Mode (Tier 0),medlineplus_list,10,10,10,1.0,1.0
+medlineplus_hepatitis,MedlinePlus,disease,https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=hepatitis&binning-state=group%3D%3DHealth%20Topics,List Mode (Tier 0),medlineplus_list,10,10,10,1.0,1.0
+medlineplus_tuberculosis,MedlinePlus,disease,https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=tuberculosis&binning-state=group%3D%3DHealth%20Topics,List Mode (Tier 0),medlineplus_list,10,10,10,1.0,1.0
+medlineplus_malaria,MedlinePlus,disease,https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=malaria&binning-state=group%3D%3DHealth%20Topics,List Mode (Tier 0),medlineplus_list,8,7,7,1.0,0.875
+medlineplus_influenza,MedlinePlus,disease,https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=influenza&binning-state=group%3D%3DHealth%20Topics,List Mode (Tier 0),medlineplus_list,10,10,10,1.0,1.0
+medlineplus_pneumonia,MedlinePlus,disease,https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=pneumonia&binning-state=group%3D%3DHealth%20Topics,List Mode (Tier 0),medlineplus_list,10,10,9,0.9,0.9
+medlineplus_rheumatoid_arthritis,MedlinePlus,disease,https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=rheumatoid+arthritis&binning-state=group%3D%3DHealth%20Topics,List Mode (Tier 0),medlineplus_list,10,10,9,0.9,0.9
+medlineplus_depression,MedlinePlus,disease,https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=depression&binning-state=group%3D%3DHealth%20Topics,List Mode (Tier 0),medlineplus_list,10,10,10,1.0,1.0
+medlineplus_anxiety_disorder,MedlinePlus,disease,https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=anxiety+disorder&binning-state=group%3D%3DHealth%20Topics,List Mode (Tier 0),medlineplus_list,10,10,10,1.0,1.0
+medlineplus_obesity,MedlinePlus,disease,https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=obesity&binning-state=group%3D%3DHealth%20Topics,List Mode (Tier 0),medlineplus_list,10,10,9,0.9,0.9
+medlineplus_stroke,MedlinePlus,disease,https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=stroke&binning-state=group%3D%3DHealth%20Topics,List Mode (Tier 0),medlineplus_list,10,10,9,0.9,0.9
+medlineplus_multiple_sclerosis,MedlinePlus,disease,https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=multiple+sclerosis&binning-state=group%3D%3DHealth%20Topics,List Mode (Tier 0),medlineplus_list,10,10,10,1.0,1.0
+medlineplus_cystic_fibrosis,MedlinePlus,disease,https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=cystic+fibrosis&binning-state=group%3D%3DHealth%20Topics,List Mode (Tier 0),medlineplus_list,10,10,10,1.0,1.0
+medlineplus_sickle_cell_disease,MedlinePlus,disease,https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=sickle+cell+disease&binning-state=group%3D%3DHealth%20Topics,List Mode (Tier 0),medlineplus_list,10,10,10,1.0,1.0
+medlineplus_lupus,MedlinePlus,disease,https://vsearch.nlm.nih.gov/vivisimo/cgi-bin/query-meta?v%3Aproject=medlineplus&v%3Asources=medlineplus-bundle&query=lupus&binning-state=group%3D%3DHealth%20Topics,List Mode (Tier 0),medlineplus_list,10,10,10,1.0,1.0
