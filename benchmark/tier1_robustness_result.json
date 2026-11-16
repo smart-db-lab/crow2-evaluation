@@ -1,0 +1,103 @@
+{
+  "experiment": "Tier 1 structural robustness on varied/harder entries (unreviewed, non-human, sparse; with/without posted results)",
+  "uniprot_hard_cases": [
+    {
+      "accession": "A0A0A0MS99",
+      "label": "unreviewed (TrEMBL), Homo sapiens",
+      "elapsed_seconds": 13.553280791,
+      "extracted": {
+        "ProteinName": "ATP-binding cassette sub-family C member 1",
+        "GeneName": "ABCC1",
+        "Organism": "Homo sapiens (Human)",
+        "Status": "UniProtKB unreviewed (TrEMBL)"
+      },
+      "ground_truth": {
+        "ProteinName": "ATP-binding cassette sub-family C member 1",
+        "GeneName": "ABCC1",
+        "Organism": "Homo sapiens (Human)",
+        "Status": "UniProtKB unreviewed (TrEMBL)"
+      },
+      "field_pass": 4,
+      "field_fail": 0,
+      "field_skip": 0
+    },
+    {
+      "accession": "A0A0B4JCU1",
+      "label": "unreviewed (TrEMBL), Drosophila melanogaster",
+      "elapsed_seconds": 12.705362541000003,
+      "extracted": {
+        "ProteinName": "Stretchin-Mlck, isoform N",
+        "GeneName": "Strn-Mlck",
+        "Organism": "Drosophila melanogaster (Fruit fly)",
+        "Status": "UniProtKB unreviewed (TrEMBL)"
+      },
+      "ground_truth": {
+        "ProteinName": "",
+        "GeneName": "Strn-Mlck",
+        "Organism": "Drosophila melanogaster (Fruit fly)",
+        "Status": "UniProtKB unreviewed (TrEMBL)"
+      },
+      "field_pass": 3,
+      "field_fail": 0,
+      "field_skip": 1
+    },
+    {
+      "accession": "F4I2K0",
+      "label": "unreviewed (TrEMBL), Arabidopsis thaliana",
+      "elapsed_seconds": 12.674339041000003,
+      "extracted": {
+        "ProteinName": "non-specific serine/threonine protein kinase",
+        "GeneName": "",
+        "Organism": "Arabidopsis thaliana (Mouse-ear cress)",
+        "Status": "UniProtKB unreviewed (TrEMBL)"
+      },
+      "ground_truth": {
+        "ProteinName": "non-specific serine/threonine protein kinase",
+        "GeneName": "",
+        "Organism": "Arabidopsis thaliana (Mouse-ear cress)",
+        "Status": "UniProtKB unreviewed (TrEMBL)"
+      },
+      "field_pass": 3,
+      "field_fail": 0,
+      "field_skip": 1
+    }
+  ],
+  "clinicaltrials_hard_cases": [
+    {
+      "nct_id": "NCT07689214",
+      "label": "no posted results",
+      "elapsed_seconds": 5.956864250000002,
+      "extracted": {
+        "Title": "Normast3 for Adults With Diabetic Polyneuropathy",
+        "Status": "Recruiting"
+      },
+      "ground_truth": {
+        "Title": "Normast3 for Adults With Diabetic Polyneuropathy",
+        "Status": "Recruiting"
+      },
+      "field_pass": 2,
+      "field_fail": 0,
+      "field_skip": 0
+    },
+    {
+      "nct_id": "NCT04007393",
+      "label": "has posted results",
+      "elapsed_seconds": 4.8764226249999965,
+      "extracted": {
+        "Title": "SMART Use of Medication for the Treatment of Adolescent Severe Obesity (SMART)",
+        "Status": "Completed"
+      },
+      "ground_truth": {
+        "Title": "SMART Use of Medication for the Treatment of Adolescent Severe Obesity",
+        "Status": "Completed"
+      },
+      "field_pass": 2,
+      "field_fail": 0,
+      "field_skip": 0
+    }
+  ],
+  "total_fields_scored": 16,
+  "total_pass": 14,
+  "total_fail": 0,
+  "total_skip": 2
+}

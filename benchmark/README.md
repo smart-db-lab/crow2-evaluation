@@ -176,12 +176,69 @@ only searches one; see `binning-state=group==Health Topics` in
 `resources.py`'s `medlineplus()` for the fix (restricts the website to the
 same single source as the API).
 
-## What's still missing
+## ScrapeGraphAI comparison (done — this section used to say otherwise)
 
-- **A real ScrapeGraphAI comparison run** (for the cost/timing/precision
-  table in §8.5 of the paper) has not been attempted yet — needs
-  `scrapegraphai` installed and a real API key exercised, with costs
-  logged.
+A real comparison run against ScrapeGraphAI's hosted `extract` API exists:
+`run_scrapegraphai.py` (the run script), `scrapegraphai_results.csv` and
+`scrapegraphai_results/` (raw per-resource output), `scrapegraphai_run_summary.json`
+(API credits used), and `compute_scrapegraphai_metrics.py` (scoring). It
+covers a 17-resource subset (3 from each of the 5 List Mode categories plus
+2 Single Page Mode resources), scored against the same independently-fetched
+ground truth used throughout this benchmark, with JavaScript rendering
+forced on (`mode="js"`) after an initial auto-mode pass returned empty
+results for every JS-rendered resource. CroW scored 97.8% against
+ScrapeGraphAI's 40.3% on this subset.
+
+## Tier 1 aggregation and robustness (new)
+
+Two further experiments reuse the same Single Page Mode wrapper
+configurations defined in `resources.py`, unchanged, against pages never
+used to author or score the N=141 benchmark above:
+
+- **`tier1_aggregation_experiment.py`** batches five UniProt accessions
+  absent from the benchmark (HRAS, NTRK1, FGFR1, CTNNB1, MTOR) through the
+  same unmodified UniProt wrapper in one call, testing whether many Tier 1
+  pages assemble into one table at all. Result in
+  `tier1_aggregation_result.json`: 5/5 rows, 100.0% P/R/F1, 62.5s.
+- **`tier1_robustness_experiment.py`** tests the same wrapper style against
+  harder, deliberately atypical pages identified live via the UniProt and
+  ClinicalTrials.gov APIs immediately before the run (not hand-picked in
+  advance): two unreviewed/TrEMBL UniProt entries (human and *D.
+  melanogaster*), one sparse *A. thaliana* entry, and one ClinicalTrials.gov
+  study without posted results plus one with. Result in
+  `tier1_robustness_result.json`: 14 of 14 scorable fields matched (2 fields
+  had no non-empty ground-truth value and were excluded, not scored either
+  way).
+
+## Temporal reliability: a 95-day re-run (new)
+
+`results.csv` (and everything summarized above) reflects benchmark
+construction. `results_aug12_baseline.csv` is an explicit copy of that same
+state, kept under its own name once a second run existed to compare
+against. `results_nov15.csv` is the result of re-running all 141 wrapper
+configurations, byte-for-byte unchanged, against the live portals again 95
+days later, with ground truth independently re-fetched the same day.
+`generate_drift_figure.py` reads both files and produces
+`fig_temporal_drift.png`.
+
+Overall precision/recall fell from 99.3%/99.3% to 87.0%/86.9%, concentrated
+almost entirely in one category: genomic repositories dropped to 15.0%
+recall because 17 of 20 NCBI Gene queries returned a live Google reCAPTCHA
+"Checking your browser" interstitial (confirmed by inspecting the raw HTTP
+response and page title directly) in place of the gene table, instead of 0
+false results. The first 3 of 20 gene queries in run order succeeded before
+the block appeared, consistent with a request-volume-triggered bot
+challenge rather than a confirmed permanent page redesign. A smaller,
+separately-diagnosed effect on 4 PubMed queries (100.0% to 98.6%) is the
+same relevance-ranking boundary effect documented above (`extracted_count`
+unchanged at 10/10; one record swapped for another), not an extraction
+failure. This also corrected an inaccurate claim that had been carried in
+the paper's own limitations section (that CroW returns an explicit
+`restricted` error when blocked): the actual, observed behavior is that a
+bot-protection challenge page is returned identically to a genuine empty
+result, with no error distinguishing the two — now stated correctly in the
+paper, flagged as a concrete item of future work rather than left as an
+untested assumption.
 
 ## Original investigation notes (why this folder exists)
 
