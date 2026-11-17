@@ -1,0 +1,26 @@
+{
+  "meropenem": {
+    "url": "https://mic.eucast.org/search/?search[method]=mic&search[antibiotic]=123&search[species]=-1&search[disk_content]=-1&search[limit]=500",
+    "elapsed_seconds": 7.540115374999999,
+    "total_records": 109,
+    "klebsiella_pneumoniae_row": {
+      "Species": "Klebsiella pneumoniae",
+      "Distributions": "42",
+      "Observations": "16651",
+      "ECOFF": "0.125",
+      "ConfidenceInterval": "0.03 - 0.125"
+    }
+  },
+  "imipenem": {
+    "url": "https://mic.eucast.org/search/?search[method]=mic&search[antibiotic]=109&search[species]=-1&search[disk_content]=-1&search[limit]=500",
+    "elapsed_seconds": 11.546741458,
+    "total_records": 100,
+    "klebsiella_pneumoniae_row": {
+      "Species": "Klebsiella pneumoniae",
+      "Distributions": "45",
+      "Observations": "58310",
+      "ECOFF": "1",
+      "ConfidenceInterval": "0.5 - 1"
+    }
+  }
+}
